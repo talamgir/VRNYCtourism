@@ -1,0 +1,357 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* NAVIGATION BAR */
+
+.nav ul {
+  background-color: #33CC33;
+  padding: 5px;
+  margin: 5px;
+  width: auto;
+  height: auto;
+}
+
+.nav li {
+  float:center;
+  font-family: 'Open Sans', sans-serif;
+  display:inline;
+  font-size: 1.2em;
+  padding:inherit;  
+}
+ 
+.nav a {
+  text-decoration: none;
+  color: #fff;
+}
+ 
+.nav a:hover {
+  background-color: #7FCB7F;
+}
+ 
+.nav a.active {
+  background-color: #5CD65C;
+  color: #444;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Body and main elements */
+
+body {
+	margin:0 auto;
+	position: relative;
+	background-color: #FFFFFF;	
+	font-size: 16px;
+	color: black;
+	width: auto;
+    height: auto;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 1000px;
+	float:center;
+	align:center;
+}
+
+p {
+	position: relative;	
+	font-size: 16px;
+	color: black;
+	width: auto;
+    height: auto;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 1000px;
+}
+
+h1 {
+	position: relative;	
+	font-size: 16px;
+	color: black;
+	width: auto;
+    height: auto;
+	font-family: 'Open Sans', sans-serif;
+	max-width: 1000px;
+}
+
+.title{
+	font-family: 'Montserrat', sans-serif;
+}
+
+img {
+	align:center;
+}
+
+.jumbotronindex{
+	align:center;
+	text-align: center;
+    position: relative;
+    background: #000 url("images/SubwayFloor.jpg") center center;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	text-shadow: 2px 2px 1px #000000;
+	color: #FFFFFF;
+}
+
+.jumbotronindex > h1 {
+	position: relative;	
+	font-size: 16px;
+	color: white;
+	width: auto;
+    height: auto;
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1000px;
+}
+
+.jumbotronindex > p{
+	color:white;
+	align:center;
+	text-align: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	text-shadow: 2px 2px 1px #000000;
+	color: #FFFFFF;
+}
+
+.jumbotronabout{
+	align:center;
+	text-align: center;
+    position: relative;
+    background: #000 url("images/FultonStreet.jpg") center center;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	text-shadow: 2px 2px 1px #000000;
+	color: #FFFFFF;
+}
+
+.jumbotronabout > h1 {
+	position: relative;	
+	font-size: 16px;
+	color: white;
+	width: auto;
+    height: auto;
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1000px;
+}
+
+.jumbotronabout > p{
+	color:white;
+	align:center;
+	text-align: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	text-shadow: 2px 2px 1px #000000;
+	color: #FFFFFF;
+}
+
+.jumbotronservices{
+	align:center;
+	text-align: center;
+	position: relative;
+    background: #000 url("images/skyline.jpg") center center;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	text-shadow: 2px 2px 1px #000000;
+	color: #FFFFFF;
+}
+
+.jumbotronservices > h1 {
+	position: relative;	
+	font-size: 16px;
+	color: white;
+	width: auto;
+    height: auto;
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1000px;
+}
+
+.jumbotronservices > p{
+	color:white;
+	align:center;
+	text-align: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	text-shadow: 2px 2px 1px #000000;
+	color: #FFFFFF;
+}
+
+.jumbotronstaff{
+	align:center;
+	text-align: center;
+	position: relative;
+    background: #000 url("images/bridge.jpg") center center;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	text-shadow: 2px 2px 1px #000000;
+	color: #FFFFFF;
+}
+
+.jumbotronstaff > h1 {
+	position: relative;	
+	font-size: 16px;
+	color: white;
+	width: auto;
+    height: auto;
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1000px;
+}
+
+.jumbotronstaff > p{
+	color:white;
+	align:center;
+	text-align: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	text-shadow: 2px 2px 1px #000000;
+	color: #FFFFFF;
+}
+
+.jumbotroncontact{
+	align:center;
+	text-align: center;
+    position: relative;
+    background: #000 url("images/SubwayWoman.jpg") center center;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	text-shadow: 2px 2px 1px #000000;
+	color: #FFFFFF;
+}
+
+.jumbotroncontact > h1 {
+	position: relative;	
+	font-size: 16px;
+	color: white;
+	width: auto;
+    height: auto;
+	font-family: 'Montserrat', sans-serif;
+	max-width: 1000px;
+}
+
+.jumbotroncontact > p{
+	color:white;
+	align:center;
+	text-align: center;
+    position: relative;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    overflow: hidden;
+	text-shadow: 2px 2px 1px #000000;
+	color: #FFFFFF;
+}
+
+.stories{
+	color:black;
+	float:left;
+	width:70%;
+	padding:35px;
+	color: #FFFFFF;	
+}
+
+.halfsection1{
+	color:black;
+	float:left;
+	width:auto;
+	max-width:360px;
+	max-height:240px;
+	padding:5px;
+	color: #FFFFFF;	
+}
+
+.halfsection2{
+	color:black;
+	float:right;
+	width:auto;
+	max-width:360px;
+	max-height:240px;
+	padding:5px;
+	color: #FFFFFF;	
+}
+
+div {
+  margin: 10px;
+  padding: 10px;
+  color: black;
+}
+
+/* BUTTONS */
+
+.buttongojumbotron{
+  text-decoration: none;
+  text-align:center;
+  background: #47D147;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  align:center;
+  max-width: 1000px;
+  max-height: 240px;
+}
+
+.buttongojumbrotron:hover {
+  text-decoration: none;
+  background: #6CDA6C;
+  font-family: 'Montserrat', sans-serif;
+  align:center;
+}
+
+.buttongo{
+  text-decoration: none;
+  text-align:center;
+  background: #66CCFF;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  max-width: 1000px;
+  max-height: 240px;
+}
+
+.buttongo:hover {
+  text-decoration: none;
+  text-align:center;
+  background: #85D6FF;
+}
+
+.buttongohalfsection{
+  text-decoration: none;
+  text-align:center;
+  background: #CC3300;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  max-width: 120px;
+  max-height: 160px;
+}
+
+a:link {
+    color: #FFFFFF;
+}
+
+a:visited {
+    color: #FFFFFF;
+}

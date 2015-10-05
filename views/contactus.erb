@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" type="text/css" href="VRNYCstylesheet.css">
+
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+        $("#title").animate({
+            fontSize: 45
+        }, 2000);
+    });
+</script>
+
+<title>VRNYC - Contact Us</title>
+</head>
+
+<body>
+
+<div class="nav">
+  <ul>
+        <li class="home"><a class="active" href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="staff.html">Travelers</a></li>
+        <li><a href="aboutus.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+</div>
+
+<div class="jumbotroncontact">
+	<h1 id="title">Contact Us at VR NYC</h1>
+		<p>Let us know if you have any questions about this service, or contact us about VR NYC.</p>
+</div>
+
+<div class="stories">
+	<h1>Submit your Inquiry for a VRNYC Experience</h1>
+  <script>
+function showInput() {
+    var message_entered =  document.getElementById("user_input").value;
+
+    document.getElementById('displayname').innerHTML = message_entered;
+	
+	var message_entered =  document.getElementById("user_email").value;
+
+    document.getElementById('displayemail').innerHTML = message_entered;
+	
+	var message_entered =  document.getElementById("user_story").value;
+
+    document.getElementById('displaystory').innerHTML = message_entered;
+}
+
+  </script>
+  </head>
+ <body>
+
+<form method= "post" action="/confirm" class="form">
+  <p>
+  <label><b>Your Full Name</b></label></p>
+  <p>
+    <input type="text" name="user_input">
+  </p>
+  <p>
+    <label><b>Email Address</b></label>
+    </p>
+  <p>
+    <input type="text" name="user_email">
+    <label><b><br />
+      Your Request</b></label></p>
+  <p>
+    <textarea name="user_story" cols="50"></textarea>
+  </p>
+  <p><button type="submit">Submit</button></p>
+</form>
+
+<!-- <p>
+  <input class="buttongohalfsection" type="submit" onclick="showInput();">
+  </p>
+<p><br />
+  <h1>Your input: </h1>
+</p>
+<h3>Subway Rider:</h3>
+<p><span id='displayname'></span> </p>
+<br />
+<h3>Subway email:</h3>
+<p>(this is visible to you only) not on the posting</p>
+<p><span id='displayemail'></span> </p>
+<br />
+<h3>Subway Rider's Story:</h3>
+<p><span id='displaystory'></span> </p>
+<br />
+</div> -->
+
+<div class="halfsection1">
+	<h1>About Us</h1>
+		<p>Learn more about the contributors of this site.</p>
+        <div class="buttongohalfsection"><a href="aboutus.html">Read On</a></div>
+</div>
+<div class="halfsection2">
+	<h1>Contact</h1>
+		<p>Learn about your next experience at VRNYC.</p>
+        <div class="buttongohalfsection"><a href="contact.html">Find Out</a></div>
+</div>
+
+</body>
+</html> -->
